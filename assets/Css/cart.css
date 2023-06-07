@@ -1,0 +1,130 @@
+/*nav*/
+html,body
+{
+    background-color: #F6FFF8;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation
+{
+    list-style: none;
+    text-align: right;
+    margin-right: 1%;
+}
+
+.navigation li
+{
+    display:inline;
+    border: 1px solid;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    margin-right: 20px;
+    color: white;
+    font-size: 15px;
+}
+
+.navigation a
+{
+    text-decoration-line: none;
+    color: white;
+}
+
+.member_title
+{
+    color: white;
+    margin: 0 0 0 5%;
+    text-align: center;
+    font-size: 30px;
+    padding: 1em 0;
+}
+
+header
+{
+    height: 100px;
+    background-color: #A4C3B2;
+    margin: 0;
+    width: 100%;
+}
+
+main
+{
+    background-color:#F6FFF8;
+    height: 1000px;
+    width: 100%;
+    margin-top: 0;
+    position: absolute;
+}
+
+.slideAD
+{
+    width: 1000px;
+    height: 500px;
+    background-color: white;
+    margin:auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+/*cart*/
+.title{
+    margin-top: 30px;
+    color: #6B9080;
+    text-align: left;
+}
+
+.item_cont{
+    display:flex;/* flexbox */
+    background-color:#6B9080;
+    /* color: white;  */
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 180px;
+    border-radius: 15px;
+}
+.item_photo{
+    background-color: white;
+    width: 125px;
+    height: 125px;
+    margin: 30px;
+    border-radius: 10px;
+}
+.introduction
+{
+    width: 60%;
+    margin-left: 20px;
+    color: white;
+}
+
+h1
+{
+    color: white;
+    margin: 0 0 0 5%;
+    padding-top: 5px;
+}
+
+h2
+{
+    margin-left: 380px;
+}
+
+.check_button
+{
+    background-color: #A4C3B2;
+    color: white;
+    border: white; 
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 400px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+}
+
+li a:hover
+{
+    background-color: #CCE3DE;
+}
